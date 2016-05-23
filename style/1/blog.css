@@ -1,0 +1,48 @@
+
+#blog{
+	width: 1040px;
+	border: 1px solid #ddd;
+	text-align: left;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+	background:#fff;
+}
+.title{
+	font-family: '微软雅黑';
+	font-style: bold;
+	font-size: 20px;
+	width: 100%;
+	height: 50px;
+	background: #f9f9f9;
+	line-height: 50px;
+	text-indent: 0px;
+	text-align: center;
+}
+.user {
+	text-align: center;
+	margin: 15px 40px;
+	width: 270px;
+	display:inline-block;
+	text-align: center;
+	clear: both;
+}
+.user ul,p{
+	margin: 0px;
+	padding: 0px;
+
+}
+.user li{
+	font-size: 15px;
+	display: inline-block;
+	margin: 0px 15px;
+}
+.page:hover{
+background:#eee;
+}
+.page a{
+	height: 30px;
+	width: 30px;
+}
+body{text-align:center;}
+#stage{ margin:0 auto; padding:0; width:880px; }
+#stage li{ margin:0; padding:0; list-style:none;float:left; width:220px;}
+#stage li div{ font-size:12px; padding:10px; color:#999999; text-align:left;

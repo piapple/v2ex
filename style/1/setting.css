@@ -1,0 +1,108 @@
+
+
+#member{
+	clear: both;
+	width: 980px;
+	float: left;
+	padding: 30px;
+	background:#fff;
+}
+#member_sidebar{
+	clear: both;
+	float: left;
+	width: 300px;
+	border: 2px dashed #ddd;
+}
+#menmber_main{
+	float: right;
+	width: 555px;
+	border: 2px dashed #ddd;
+}
+.title{
+text-align: center;
+}
+.control{
+	margin:20px auto;
+	width: 80%;
+	text-align: center;
+}
+.control_title{
+	height: 50px;
+	line-height: 50px;
+	text-indent: 10px;
+	width: 100%;
+	background:#999;
+	color: white;
+}
+.control a{
+	display: block;
+	color: black;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	background:#ddd;
+}
+.control a:hover{
+	background:gray;
+	transition: .5s ease-out;
+}
+#menmber_info{
+	position: relative;
+}
+
+#user_info{
+	position:absolute;
+	float:left;
+	width: 120px;
+	height: 10px;
+	text-align: center;
+	left: 30px;
+}
+
+
+.button{
+	margin:0px 20px 0px 20px ;
+	background: #fff;
+	border: 1px dashed;
+	padding: 5px;
+}
+
+#setting{
+	margin-left: 180px;
+}
+#setting form{
+
+	margin: 0px auto;
+}
+#setting p{
+	margin: 20px 0px 20px 0px;
+	line-height: 25px;
+	position: relative;
+}
+#setting .text{
+	border: 1px dashed;
+	float: left;
+	height: 25px;
+}
+#setting label{
+	float: left;
+	width: 100px;
+}
+#setting .button{
+	margin:0px 20px 0px 20px ;
+	background: #fff;
+	border: 1px dashed;
+	padding: 5px;
+}
+#setting img{
+	cursor:pointer;
+}
+#error{
+	width: 300px;
+	position:absolute;
+	top:0px;
+	left: 300px;
+	font-size: 12px;
+	color: red;
+	z-index: 10;
+}
